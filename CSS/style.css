@@ -1,0 +1,42 @@
+html{
+  box-sizing: border-box;  
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    outline: 1px solid tomato;
+
+}
+body{
+    
+    font-family: 'Aldrich', sans-serif;
+    color: #fff;
+}
+.timer{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.timer__header{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ul {
+      list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.timer__buttons{
+    width: 450px;
+    display: flex;
+}
